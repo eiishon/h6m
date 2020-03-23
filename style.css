@@ -74,13 +74,18 @@
 
 /* PARTE 3*/
 /* HACER QUE LA TABLA SE VEA A MEDIAS */
-
+table.t3{
+  width: 100%;
+}
 /* PARTE 4 */
 
-.p4{
+
+table.p4{
   width: 30%;
-  display: inline-block;
-  vertical-align: top;
+ /* display: inline-block;
+  vertical-align: top; */
   text-align: center;
-  padding: 3%;
+  border-spacing: 100px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
