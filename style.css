@@ -1,4 +1,9 @@
+/*LAS FUENTES USADAS*/
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+
+
 /* PARA LA PLAYLIST*/
+
 #playlist, audio{
     background:#666;
     width:400px;
@@ -22,3 +27,36 @@
   li a:hover{
     text-decoration:none;
   }
+
+  /*PARTE 1*/
+
+  h1.t1{
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    color: rgb(9, 9, 121);
+    text-shadow: darkgray 3px 3px;
+    letter-spacing: 4px;
+    font-size: 200%;
+  }
+
+  p.p1{
+    text-align: center;
+  }
+
+  img.img1:hover{
+    transform: scale(1.2)
+    }
+
+
+    /* SEPARADOR */
+
+  hr{
+    border: darkslateblue dotted 1px;
+  }
+   
+  /*PARTE 2*/
+
+  h2.t2{
+    
+  }
+
