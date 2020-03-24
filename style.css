@@ -64,7 +64,7 @@
   }
 
 
-  .p2 {
+  p.p2 {
     width: 10%;
     display: inline-block;
     vertical-align: top;
@@ -75,18 +75,16 @@
 /* PARTE 3*/
 /* HACER QUE LA TABLA SE VEA A MEDIAS */
 table.t3{
-  width: 200%;
-  padding-left: 10%;
+  border-spacing: 150px 2px;
 }
 /* PARTE 4 */
 
 
 table.p4{
-  width: 30%;
+  border-spacing: 100px 2px;
  /* display: inline-block;
   vertical-align: top; */
   text-align: center;
-  border-spacing: 100px;
   padding-left: 15%;
   padding-right: 15%;
 }
