@@ -75,7 +75,8 @@
 /* PARTE 3*/
 /* HACER QUE LA TABLA SE VEA A MEDIAS */
 table.t3{
-  width: 100%;
+  width: 200%;
+  padding-left: 10%;
 }
 /* PARTE 4 */
 
