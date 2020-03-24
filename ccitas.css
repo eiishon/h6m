@@ -1,0 +1,13 @@
+header{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+
+/* SEPARADOR */ 
+hr{
+    border: darkslateblue dotted 1px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
