@@ -1,6 +1,7 @@
 /*LAS FUENTES USADAS*/
 @import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 /* PARA LA PLAYLIST*/
 
@@ -59,6 +60,7 @@
   /*PARTE 2*/
 
   h2.t2{
+    padding-left: 150px;
     font-family: 'Lobster Two', cursive;
     letter-spacing: 2px;
   }
@@ -74,16 +76,26 @@
 
 /* PARTE 3*/
 /* HACER QUE LA TABLA SE VEA A MEDIAS */
+h2.t3{
+  font-family: 'Lobster Two', cursive;
+  letter-spacing: 2px;
+}
 table.t3{
   border-spacing: 150px 2px;
 }
+p.p3{
+  font-size: small;
+  font-family: 'Indie Flower', cursive;
+}
+
 /* PARTE 4 */
-
-
+h2.t4{
+  padding-left: 150px;
+  font-family: 'Lobster Two', cursive;
+  letter-spacing: 2px;
+}
 table.p4{
   border-spacing: 100px 2px;
- /* display: inline-block;
-  vertical-align: top; */
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
