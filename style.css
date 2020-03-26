@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
+/* PARA EL FONDO */
+html{
+  background: url("https://logodownload.org/wp-content/uploads/2019/03/nasa-logo.png") left top repeat-y , url("https://logodownload.org/wp-content/uploads/2019/03/nasa-logo.png") right top repeat-y;
+  background-size: 150px 123px;
+}
+
 /* PARA LA PLAYLIST*/
 
 #playlist, audio{
@@ -71,7 +77,7 @@
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
   }
 
 /* PARTE 3*/
