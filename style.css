@@ -151,14 +151,14 @@ img.rg:hover{
 
   img.rm90{
     transform: rotate(-90deg);
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 125px;
+    margin-bottom: 125px;
 }
 
 img.r90{
   transform: rotate(90deg);
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 125px;
+  margin-bottom: 125px;
 }
 
 p.volver{
