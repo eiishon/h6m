@@ -149,3 +149,20 @@ img.rg:hover{
     text-align: center;
   }
 
+  img.rm90{
+    transform: rotate(-90deg);
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+img.r90{
+  transform: rotate(90deg);
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+p.volver{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  text-decoration: underline;
+}
