@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css?family=Special+Elite|Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 html{
     background: url("https://logodownload.org/wp-content/uploads/2019/03/nasa-logo.png") left top repeat-y , url("https://logodownload.org/wp-content/uploads/2019/03/nasa-logo.png") right top repeat-y;
@@ -17,4 +19,21 @@ hr{
     border: darkslateblue dotted 1px;
     margin-right: 10%;
     margin-left: 10%;
+  }
+
+  h1{
+    /* font-family: 'Aclonica', sans-serif; */
+    font-family: 'Special Elite', cursive;
+     text-align: center;
+    color: rgb(9, 9, 121);
+     text-shadow: darkgray 3px 3px;
+     letter-spacing: 4px;
+     font-size: 200%; 
+   }
+   h2{
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 2px;
+  }
+  p{
+    font-family: 'Indie Flower', cursive;
   }
