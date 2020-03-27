@@ -53,3 +53,4 @@ function run(song, audio, link){
         audio.load();
         audio.play();
 }
+
