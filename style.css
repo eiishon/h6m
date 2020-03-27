@@ -143,4 +143,8 @@ img.rg:hover{
     font-family: 'Indie Flower', cursive;
     padding-left: 150px;
     padding-right: 150px;
+    text-indent: 25px;
+  }
+  p.img{
+    text-align: center;
   }
