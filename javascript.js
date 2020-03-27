@@ -4,7 +4,7 @@ function init(){
     var audio = document.getElementById('audio');
     var playlist = document.getElementById('playlist');
     var tracks = playlist.getElementsByTagName('a');
-    audio.volume = 0.10;
+    audio.volume = 0.50;
     audio.play();
     
     for(var track in tracks) {

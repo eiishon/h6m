@@ -1,22 +1,28 @@
 /*LAS FUENTES USADAS*/
 @import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite|Spicy+Rice&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 /* PARA EL FONDO */
-html{
+ html{
   background: url("https://logodownload.org/wp-content/uploads/2019/03/nasa-logo.png") left top repeat-y , url("https://logodownload.org/wp-content/uploads/2019/03/nasa-logo.png") right top repeat-y;
   background-size: 150px 123px;
-}
+} 
 
+header{
+  text-align: center;
+}
 /* PARA LA PLAYLIST*/
 
 #playlist, audio{
-    background:#666;
+    background:rgb(9, 9, 121);
     width:400px;
     padding:20px;
     list-style: none;
     font-family: 'Indie Flower', cursive;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   a {
     text-decoration:none;
@@ -38,12 +44,13 @@ html{
   /*PARTE 1*/
 
   h1.t1{
-    font-family: 'Aclonica', sans-serif;
+   /* font-family: 'Aclonica', sans-serif; */
+   font-family: 'Special Elite', cursive;
     text-align: center;
-    color: rgb(9, 9, 121);
+   color: rgb(9, 9, 121);
     text-shadow: darkgray 3px 3px;
     letter-spacing: 4px;
-    font-size: 200%;
+    font-size: 200%; 
   }
 
   header{
@@ -128,4 +135,12 @@ img.rg:hover{
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  /* PÁRRAFOS EN MESES */
+
+  p.pm{
+    font-family: 'Indie Flower', cursive;
+    padding-left: 150px;
+    padding-right: 150px;
   }
