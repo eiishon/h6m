@@ -3,6 +3,9 @@
 html{
     background: url("https://image.freepik.com/foto-gratis/textura-carton_95678-72.jpg") repeat;
     background-size: 150px 108px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 header{
     text-align: center;
