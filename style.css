@@ -10,6 +10,7 @@
   background-size: 150px 123px;
   -webkit-user-select: none;
   -moz-user-select: none;
+  user-select: none;
 } 
 
 header{
