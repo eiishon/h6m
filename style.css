@@ -1,9 +1,4 @@
 /*LAS FUENTES USADAS*/
-@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Special+Elite|Spicy+Rice&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
-@import url('//db.onlinewebfonts.com/c/02e58ddc3171ec36a8ff7cbdfabea119?family=Hobbiton+Brushhand');
 @font-face {
    font-family: "Hobbiton Brushhand"; 
    src:  url("hobbitonbrushhand.woff") format("woff");
@@ -36,7 +31,6 @@ header{
     width:400px;
     padding:20px;
     list-style: none;
-    /* font-family: 'Indie Flower', cursive; */
     font-family: "Tolkien";
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -61,14 +55,11 @@ header{
   /*PARTE 1*/
 
   h1.t1{
-   /* font-family: 'Aclonica', sans-serif; */
-    /* font-family: 'Special Elite', cursive;  */
     text-align: center;
    color: rgb(11,61,145);
     text-shadow: darkgray 3px 3px;
     letter-spacing: 4px;
     font-size: 200%;
-    /* font-family: "Hobbiton Brushhand"; */
     font-family: "Ringbearer";
   }
 
@@ -93,7 +84,6 @@ header{
 
   h2.t2{
     padding-left: 150px;
-    /* font-family: 'Lobster Two', cursive; */
     font-family: "Hobbiton Brushhand"; 
     letter-spacing: 2px;
   }
