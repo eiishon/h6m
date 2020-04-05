@@ -3,6 +3,19 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite|Spicy+Rice&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('//db.onlinewebfonts.com/c/02e58ddc3171ec36a8ff7cbdfabea119?family=Hobbiton+Brushhand');
+@font-face {
+   font-family: "Hobbiton Brushhand"; 
+   src:  url("hobbitonbrushhand.woff") format("woff");
+} 
+@font-face{
+  font-family: "Ringbearer";
+  src: url("RINGM___.woff") format("woff");
+}
+@font-face{
+  font-family: "Tolkien";
+  src: url("tolkien.woff") format("woff");
+}
 
 /* PARA EL FONDO */
  html{
@@ -23,7 +36,8 @@ header{
     width:400px;
     padding:20px;
     list-style: none;
-    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: "Tolkien";
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
@@ -48,12 +62,14 @@ header{
 
   h1.t1{
    /* font-family: 'Aclonica', sans-serif; */
-   font-family: 'Special Elite', cursive;
+    /* font-family: 'Special Elite', cursive;  */
     text-align: center;
    color: rgb(11,61,145);
     text-shadow: darkgray 3px 3px;
     letter-spacing: 4px;
-    font-size: 200%; 
+    font-size: 200%;
+    /* font-family: "Hobbiton Brushhand"; */
+    font-family: "Ringbearer";
   }
 
   header{
@@ -77,7 +93,8 @@ header{
 
   h2.t2{
     padding-left: 150px;
-    font-family: 'Lobster Two', cursive;
+    /* font-family: 'Lobster Two', cursive; */
+    font-family: "Hobbiton Brushhand"; 
     letter-spacing: 2px;
   }
 
@@ -93,7 +110,7 @@ header{
 /* PARTE 3*/
 /* HACER QUE LA TABLA SE VEA A MEDIAS */
 h2.t3{
-  font-family: 'Lobster Two', cursive;
+  font-family: "Hobbiton Brushhand"; 
   letter-spacing: 2px;
 }
 table.t3{
@@ -101,7 +118,7 @@ table.t3{
 }
 p.p3{
   font-size: small;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Tolkien";
 }
 img.ct:hover{
   -webkit-filter: blur(5px); 
@@ -111,7 +128,7 @@ img.ct:hover{
 /* PARTE 4 */
 h2.t4{
   padding-left: 150px;
-  font-family: 'Lobster Two', cursive;
+  font-family: "Hobbiton Brushhand"; 
   letter-spacing: 2px;
 }
 table.p4{
@@ -143,7 +160,7 @@ img.rg:hover{
   /* PÁRRAFOS EN MESES */
 
   p.pm{
-    font-family: 'Indie Flower', cursive;
+    font-family: "Tolkien";
     padding-left: 150px;
     padding-right: 150px;
     text-indent: 25px;
@@ -166,7 +183,7 @@ img.r90{
 
 p.volver{
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Tolkien";
   text-decoration: underline;
 }
 

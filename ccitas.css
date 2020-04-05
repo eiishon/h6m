@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite|Spicy+Rice&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@font-face {
+  font-family: "Hobbiton Brushhand"; 
+  src:  url("hobbitonbrushhand.woff") format("woff");
+} 
+@font-face{
+ font-family: "Ringbearer";
+ src: url("RINGM___.woff") format("woff");
+}
 
 html{
     background: url("https://logodownload.org/wp-content/uploads/2019/03/nasa-logo.png") left top repeat-y , url("https://logodownload.org/wp-content/uploads/2019/03/nasa-logo.png") right top repeat-y;
@@ -23,7 +31,7 @@ hr{
 
   h1{
     /* font-family: 'Aclonica', sans-serif; */
-    font-family: 'Special Elite', cursive;
+    font-family: "Ringbearer";
      text-align: center;
     color: rgb(9, 9, 121);
      text-shadow: darkgray 3px 3px;
@@ -31,7 +39,7 @@ hr{
      font-size: 200%; 
    }
    h2{
-    font-family: 'Lobster Two', cursive;
+    font-family: "Hobbiton Brushhand";
     letter-spacing: 2px;
   }
   p{

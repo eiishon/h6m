@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@font-face {
+    font-family: "Hobbiton Brushhand"; 
+    src:  url("hobbitonbrushhand.woff") format("woff");
+ } 
+  @font-face{
+    font-family: "Tolkien";
+    src: url("tolkien.woff") format("woff");
+  }
 html{
     background: url("https://image.freepik.com/foto-gratis/textura-carton_95678-72.jpg") repeat;
     background-size: 150px 108px;
@@ -9,13 +17,13 @@ html{
 }
 header{
     text-align: center;
-    font-family: 'Lobster Two', cursive;
+    font-family: "Hobbiton Brushhand";
 }
 section{
     text-align: center;
 }
 
 p {
-    font-family: 'Indie Flower', cursive;
+    font-family: "Tolkien";
 }
 
