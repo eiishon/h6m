@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 html{
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
+    background: url("https://docs.google.com/uc?export=download&id=1shui8ABHNHXmsRcQrQSDJEpyp8GXeZJP");
 }
+
+header{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: greenyellow;
+    font-family: 'Creepster', cursive;
+}
+
+h1{
+    font-size: 200%;
+    letter-spacing: 4px;
+}
+
+
+
