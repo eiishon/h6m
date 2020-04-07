@@ -1,3 +1,34 @@
+@font-face{
+    font-family: "Lion King";
+    src: url("lion_king.woff") format("woff");
+}
+@font-face{
+    font-family: "Street Fighter";
+    src: url("Street-fighter.woff") format("woff");
+}
+@font-face{
+    font-family: "Futurama 1";
+    src: url("fr-bold.woff") format("woff");
+}
+
+@font-face{
+    font-family: "Futurama 2";
+    src: url("fr-title.woff") format("woff");
+}
+@font-face{
+    font-family: "Danger";
+    src: url("Danger-Zone-Warning.woff") format("woff");
+}
+html{
+    background: url("fondo.jpg");
+    user-select: none;
+}
+
+
+p{
+    font-family: "Futurama 1";
+}
+
 p.puz{
     text-align: center;
 }
@@ -6,3 +37,53 @@ p.img{
     text-align: center;
   }
 
+h1{
+    text-align: center;
+    font-family: "Street Fighter";
+    background-color: rgb(249, 249, 249);
+    font-size: 250%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: rgb(13,158,213);
+}
+h2{
+    text-align: center;
+    font-family: "Lion King";
+    background-color: rgb(249, 249, 249);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: rgb(255, 205, 32);
+}
+
+p.ex{
+    font-size: small;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(249, 249, 249);
+    color: rgb(79, 27, 112);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+hr{
+    border: rgb(250, 0, 173) dotted 1px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h3{
+    padding-left: 20%;
+    font-family: "Futurama 2";
+    background-color: rgb(249, 249, 249);
+    color: rgb(24, 167, 147);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+div{
+    font-family: "Danger";
+    text-align: center;
+    font-size: 300%;
+    color: rgb(207, 1, 1);
+}
