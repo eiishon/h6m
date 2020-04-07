@@ -44,3 +44,10 @@ hr{
   p{
     font-family: "Tolkien";
   }
+
+  img{
+    border-radius: 8px;
+  }
+  img:hover {
+    transform: scaleX(-1); 
+  }
