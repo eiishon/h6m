@@ -26,4 +26,8 @@ section{
 p {
     font-family: "Tolkien";
 }
+p.pc{
+    padding-left: 30%;
+    padding-right: 30%;
+}
 
