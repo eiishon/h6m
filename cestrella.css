@@ -3,8 +3,12 @@
     src: url("lion_king.woff") format("woff");
 }
 @font-face{
-    font-family: "Street-Fighter";
+    font-family: "Street Fighter";
     src: url("Street-fighter.woff") format("woff");
+}
+@font-face{
+    font-family: "Street Fighter 2";
+    src: url("SSF4-ABUKET.woff") format("woff");
 }
 @font-face{
     font-family: "Futurama 1";
@@ -39,9 +43,9 @@ p.img{
 
 h1{
     text-align: center;
-    font-family: "Street-Fighter";
+    font-family: "Street Fighter 2";
     background-color: rgb(249, 249, 249);
-    font-size: 250%;
+    font-size: 200%;
     padding-top: 5px;
     padding-bottom: 5px;
     color: rgb(13,158,213);
